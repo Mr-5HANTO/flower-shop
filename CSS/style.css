@@ -20,14 +20,12 @@ span{
 }
 ul > li{
     list-style: none;
-    padding: 40px;
+    padding: 20px   0px;
+    
 }
 ul > li > a{
     text-decoration: none;
     padding: 20px;
-}
-.btn-primary{
-  width: 100px;
 }
 /* Banner Section Styles  */
 
@@ -61,18 +59,23 @@ ul > li > a{
    border: none;
    border-radius: 5px;
    font-weight: bold;
+   cursor: pointer;
+}
+.btn:hover{
+    background-color: aqua;
+    border: none;
+}
+button > a{
+    color: white;
+    text-decoration: none;
 }
 
 /* Main Section Styles  */
-.main{
-    /* max-width:1040px;
-    margin: 0 auto;
-     */
-}
+
 .featured-content{
     display: flex;
     justify-content: space-around;
-    margin:20px 100px   50px 100px;
+    margin:20px 90px   50px 90px;
 }
 .primary-tittle{
     text-align: center;
@@ -137,3 +140,37 @@ h3{
     justify-content: space-around;
     margin: 0px     200px;
 }
+
+
+/* Get The Deal Section Styles  */
+
+.input-field{
+    display: flex;
+    background-image: url(/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    margin-top: 100px;
+    margin-top: 100px;
+    margin-left: 220px;
+    padding: 50px   450px;
+    margin-bottom: 50PX;
+
+}
+input{
+    padding: 10px   100px;
+    border-radius: 5px;
+    text-align: center;
+}
+/* Footer Part  */
+footer{
+    background-color: black;
+    color: white;
+    padding: 70px   0;
+}
+.description{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+
