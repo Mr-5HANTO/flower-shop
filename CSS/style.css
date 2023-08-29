@@ -64,15 +64,15 @@ ul > li > a{
 }
 
 /* Main Section Styles  */
-main{
-    max-width:1040px;
+.main{
+    /* max-width:1040px;
     margin: 0 auto;
-    
+     */
 }
 .featured-content{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 50px;
+    margin:20px 100px   50px 100px;
 }
 .primary-tittle{
     text-align: center;
@@ -111,4 +111,29 @@ h3{
 }
 #yellow-flower{
     background-color:rgb(243, 243, 185);
+}
+
+/* Hot Deal Section  */ 
+.hot-deal{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 60px; */
+    background-color: rgb(241, 229, 231);
+    align-items: center;
+    height: 300px;
+    padding: 40px    200px;
+    
+}
+.tittle{
+    text-align: center;
+}
+.Deal-img > img{
+        width: 200px;
+}
+
+/* social media styles  */
+.social-media-img{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px     200px;
 }
